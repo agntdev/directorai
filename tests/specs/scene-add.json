@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Add scene",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Manually add individual scene to current project"
+            }
+          }
+        ],
+        "send": {
+          "callback": "scene:add"
+        }
+      }
+    ]
+  }
+]
