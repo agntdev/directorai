@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/submit_script",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Submit full script text for automated parsing"
+            }
+          }
+        ],
+        "send": {
+          "text": "/submit_script"
+        }
+      }
+    ]
+  }
+]
