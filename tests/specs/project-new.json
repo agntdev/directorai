@@ -1,0 +1,20 @@
+[
+  {
+    "name": "New project",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Initiate new video project with default settings"
+            }
+          }
+        ],
+        "send": {
+          "callback": "project:new"
+        }
+      }
+    ]
+  }
+]
